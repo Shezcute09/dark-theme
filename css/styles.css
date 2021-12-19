@@ -1,10 +1,9 @@
 /* home section */
 
-#home {
-  width: auto;
-  height: 552px;
-  /* color: white; */
-  font-weight: bold;
+:root{
+  --primary-color: cadetblue;
+  --secondary-color: #333;
+  --font-color: #fff
 }
 
 /* button sub-sectiom */
@@ -22,4 +21,38 @@
   font-size: 1.1rem;
   padding: 1% 7%;
 }
-.nav-link:hover {color: cadetblue;text-decoration: none;}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* carusel caption */
+.carousel-item img {
+  height: 100vh;
+}
+
+.carousel-caption {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+}
+
+#carouselIcon {
+  border:2px solid var(--primary-color);
+  padding: 1rem;
+  color: var(--primary-color);
+}
+
+#carouselIcon:hover {
+  color: var(--font-color);
+  background-color: var(--primary-color);
+}
+
+.fa-chevron-left, .fa-chevron-right{
+  font-size: 20px;
+}

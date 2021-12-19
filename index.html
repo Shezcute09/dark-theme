@@ -3,9 +3,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dark Practice</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
@@ -30,7 +36,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active text-primary"
+                  class="nav-link active"
                   aria-current="page"
                   href="#"
                   >HOME</a
@@ -38,22 +44,22 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="#">ABOUT</a>
+                <a class="nav-link" href="#">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">TEAM</a>
+                <a class="nav-link" href="#">TEAM</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">PASCAL</a>
+                <a class="nav-link" href="#">PASCAL</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">PRICE</a>
+                <a class="nav-link" href="#">PRICE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">NEWS</a>
+                <a class="nav-link" href="#">NEWS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">CONTACT</a>
+                <a class="nav-link" href="#">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -63,32 +69,46 @@
       <div
         id="carouselExampleInterval"
         class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
+        data-bs-ride="carousel">
+
+      <div class="carousel-inner" style="text-align: center;">
 
           <div class="carousel-item active" data-bs-interval="5000">
             <img src="images/slider/bg-1.jpg" class="d-block w-100" alt="..." />
             
+            <div class="carousel-caption d-md-block">
+              <h1>WELCOME TO XLIGHT</h1>
+              <p>PREMIUM MULTIPURPOSE THEMES</p>
+            </div>
           </div>
+
           <div class="carousel-item" data-bs-interval="2000">
             <img src="images/slider/bg-2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block chichi">
+              <h1>WELCOME TO XLIGHT</h1>
+              <p>PREMIUM MULTIPURPOSE THEMES</p>
+            </div>
           </div>
+
           <div class="carousel-item">
             <img src="images/slider/bg-3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h1>WELCOME TO XLIGHT</h1>
+              <p>PREMIUM MULTIPURPOSE THEMES</p>
+            </div>
           </div>
+
         </div>
+
         <button
           class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="prev"
         >
-          <span
-            class="carousel-control-prev-icon btn btn-outline-primary"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Previous</span>
+        <div id="carouselIcon">
+          <i class="fas fa-chevron-left"></i>
+        </div>
         </button>
         <button
           class="carousel-control-next"
@@ -96,15 +116,17 @@
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="next"
         >
-          <span
-            class="carousel-control-next-icon btn btn-outline-primary"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Next</span>
+        <div id="carouselIcon">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        
         </button>
       </div>
     </section>
 
     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </body>
 </html>
